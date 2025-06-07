@@ -5,16 +5,16 @@ const Sidebar: React.FC<{ onRefresh: () => void }> = ({ onRefresh }) => (
     <h2 className="text-lg font-semibold mb-4">Legenda dos alertas</h2>
     <ul className="mb-6">
       <li className="flex items-center mb-2">
-        <span className="inline-block w-4 h-4 bg-red-500 rounded-full mr-2"></span>
+        <span className="inline-block w-4 h-4 mr-2 redButton"></span>
         Alagamento crítico
       </li>
       <li className="flex items-center mb-2">
-        <span className="inline-block w-4 h-4 bg-yellow-400 rounded-full mr-2"></span>
+        <span className="inline-block w-4 h-4 mr-2 yellowButton"></span>
         Trânsito comprometido
       </li>
       <li className="flex items-center mb-2">
-        <span className="inline-block w-4 h-4 bg-blue-500 rounded-full mr-2"></span>
-        Região monitorada sem problemas
+        <span className="inline-block w-4 h-4 mr-2 blueButton"></span>
+        Região com riscos monitorados
       </li>
     </ul>
     <button

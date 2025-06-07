@@ -14,7 +14,24 @@
   --light-gray: #e0e0e0;
   --background-gradient: linear-gradient(135deg, #e3f0ff 0%, #f8f9fa 100%);
   --white-color: #fff;
+  --red-alert: red;
+  --yellow-alert: yellow;
+  --blue-alert: blue;
 }
+
+
+.redButton {
+  background-color: var(--red-alert);
+}
+
+.yellowButton {
+  background-color: var(--yellow-alert);
+}
+
+.blueButton {
+  background-color: var(--blue-alert);
+}
+
 
 html,
 body,
