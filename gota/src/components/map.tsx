@@ -23,7 +23,7 @@ const locations = [
     lng: -46.6388,
     title: "Região monitorada - Sé",
     color: "blue",
-    details: "Região monitorada sem problemas. Última atualização: 17h10. Fonte: IA Flood Detector.",
+    details: "Região com riscos. Última atualização: 17h10. Fonte: IA Flood Detector.",
   },
 ];
 

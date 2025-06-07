@@ -1,7 +1,7 @@
 import "../style/globals.css";
 
 export const metadata = {
-  title: "Gota Alert SP",
+  title: "Gota Alert",
   description: "Mapa inteligente de enchentes em tempo real para São Paulo",
 };
 
